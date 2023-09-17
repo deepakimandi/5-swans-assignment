@@ -10,9 +10,9 @@ This assignment demonstrates encoding and decoding data using FlatBuffers.
    ```
 
 2. **Install FlatBuffers Python package:**
- ```bash
- pip3 install flatbuffers
- ```
+   ```bash
+   pip3 install flatbuffers
+   ```
 
 3. **Generate FlatBuffers code:**
    ```bash
