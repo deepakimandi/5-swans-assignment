@@ -7,6 +7,7 @@ This assignment demonstrates encoding and decoding data using FlatBuffers.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/deepakimandi/5-swans-assignment
+   cd 5-swans-assignment
    ```
 
 2. **Install FlatBuffers Python package:**
