@@ -1,0 +1,23 @@
+namespace MySchema;
+
+enum Gender: byte { Male, Female }
+
+table Person {
+  name: string;
+  age: short;
+  weight: float;
+  gender: Gender;
+}
+
+table Group {
+  group_name: string;
+  average_age: float;
+  average_weight: float;
+  list_of_names: [string];
+}
+
+table Client {
+  is_person: bool;
+  person: Person;
+  group: Group;
+}
